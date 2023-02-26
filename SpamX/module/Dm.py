@@ -1,4 +1,4 @@
-# Star boi - Telegram Projects
+# ansh - Telegram Projects
 # (c) 2022 - 2023 Star
 # Don't Kang Bitch -!
 
@@ -8,7 +8,7 @@ import os
 import sys
 import asyncio
 from random import choice
-from SpamX import (OWNER_ID, HNDLR, SUDO_USERS, LOGS_CHANNEL)
+from XspamBot import (OWNER_ID, HNDLR, SUDO_USERS, LOGS_CHANNEL)
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from SpamX.data import *
@@ -23,7 +23,7 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(Rizoel[1])
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @its_star_boi Owner"
+                text = f"I can't raid on @ID_SELLER00 Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -44,7 +44,7 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @its_star_boi Owner"
+                text = f"I can't raid on @ID_SELLER00 Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -58,7 +58,7 @@ async def dmraid(xspam: Client, e: Message):
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
-                    await xspam.send_message(id, msg)
+                    await XspamBot.send_message(id, msg)
                     await asyncio.sleep(0.10)
       else:
           await xspam.reply_text(Usage)
@@ -77,7 +77,7 @@ async def dm(xspam: Client, e: Message):
           ok = await xspam.get_users(usr)
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @its_star_boi Owner"
+                text = f"I can't raid on @ID_SELLER00 Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -94,7 +94,7 @@ async def dm(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @its_star_boi Owner"
+                text = f"I can't raid on @ID_SELLER00 Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -105,12 +105,12 @@ async def dm(xspam: Client, e: Message):
           else:
               msg = str(Rizoel[0])
               await e.reply_text("🔸 Message Delivered 🔸️")
-              await xspam.send_message(id, msg)
+              await XspamBot.send_message(id, msg)
       else:
           await xspam.reply_text(Usage)
       if LOGS_CHANNEL:
          try:
-            await xspam.send_message(LOGS_CHANNEL, f"Direct Message By User: {e.from_user.id} \n\n On User: {id}")
+            await XspamBot.send_message(LOGS_CHANNEL, f"Direct Message By User: {e.from_user.id} \n\n On User: {id}")
          except Exception as a:
              print(a)
              pass
@@ -126,7 +126,7 @@ async def dmspam(xspam: Client, e: Message):
           ok = await xspam.get_users(Rizoel[0])
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @its_star_boi Owner"
+                text = f"I can't raid on @ID_SELLER00 Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -145,7 +145,7 @@ async def dmspam(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @its_star_boi Owner"
+                text = f"I can't raid on @ID_SELLER00 Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -161,7 +161,7 @@ async def dmspam(xspam: Client, e: Message):
                     await xspam.send_message(id, msg)
                     await asyncio.sleep(0.10)
       else:
-          await xspam.reply_text(Usage)
+          await @ID_SELLER00.reply_text(Usage)
       if LOGS_CHANNEL:
          try:
             await xspam.send_message(LOGS_CHANNEL, f"started DM Spam By User: {e.from_user.id} \n\n On User: {id} \n Counts: {counts} \n Message: {msg}")
