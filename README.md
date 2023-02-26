@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="XspamBot/CuteBaccha.png" alt="XspamBot Logo">
+  <img src="https://telegra.ph/file/84d78eb3f9dcbc9d6b87f.jpg" alt="XspamBot Logo">
 </p
 <h1 align="center">
   <b>• xsᴘᴀᴍʙᴏᴛ_ᴀɴsʜ •</b>
@@ -27,8 +27,7 @@
 > The easy way to host this bot, deploy to Heroku 
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/its-star-boi/SpamX)
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CuteBaccha/XspamBot)
 <h4> Local Hosting </h4>
 
 <i> First Fork The [Repo](https://github.com/CuteBaccha/XspamBot) </i>
