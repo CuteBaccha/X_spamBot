@@ -1,5 +1,5 @@
 
-# Star Boi - Telegram Projects
+# ansh - Telegram Projects
 # (c) 2022 - 2023 Star
 # Don't Kang Bitch -!
 
@@ -9,15 +9,15 @@ import sys
 import asyncio
 import datetime
 import time
-from SpamX import (HNDLR, SUDO_USERS, ALIVE_PIC, ALIVE_MSG, PING_MSG, __version__, start_time)
+from XspamBot import (HNDLR, SUDO_USERS, ALIVE_PIC, ALIVE_MSG, PING_MSG, __version__, start_time)
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram import __version__ as pyro_vr             
                 
 
-pongg = PING_MSG if PING_MSG else "$ᴛᴀʀ X sᴘᴀᴍ"
-STAR_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/252fc4a5c64895b0e539c.jpg"
-Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝗦𝘁𝗮𝗿 𝗫 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲."
+pongg = PING_MSG if PING_MSG else "ᴀɴsʜ X sᴘᴀᴍʙᴏᴛ"
+STAR_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/84d78eb3f9dcbc9d6b87f.jpg"
+Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝗮𝗻𝘀𝗵 𝗫 𝘀𝗽𝗮𝗺𝗕𝗼𝘁 𝗛𝗲𝗿𝗲."
 
 
 star = f"⁂ {Alivemsg} ⁂\n\n"
@@ -25,9 +25,9 @@ star += f"━───────╯•╰───────━\n"
 star += f"➠ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.4`\n"
 star += f"➠ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ** : `{pyro_vr}`\n"
 star += f"➠ **SᴘᴀᴍX ᴠᴇʀsɪᴏɴ**  : `{__version__}`\n"
-star += f"➠ **ᴄʜᴀɴɴᴇʟ** : [Join.](https://t.me/Star_X_Network)\n"
+star += f"➠ **ᴄʜᴀɴɴᴇʟ** : [Join.](https://t.me/XD_CUTETY)\n"
 star += f"━───────╮•╭───────━\n\n"
-star += f"➠ **Source Code:** [•Repo•](https://github.com/its-star-boi/SpamX)"
+star += f"➠ **Source Code:** [•Repo•](https://github.com/CuteBaccha/XspamBot)"
 
 
 async def get_time(seconds: int) -> str:
@@ -66,24 +66,24 @@ async def ping(_, e: Message):
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["alive"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["alive"], prefixes=HNDLR))
-async def alive(xspam: Client, e: Message):
+async def alive(XspamBot: Client, e: Message):
        if ".jpg" in STAR_PIC or ".png" in STAR_PIC:
-              await xspam.send_photo(e.chat.id, STAR_PIC, caption=star)
+              await XspamBot.send_photo(e.chat.id, STAR_PIC, caption=star)
        if ".mp4" in STAR_PIC or ".MP4," in STAR_PIC:
-              await xspam.send_video(e.chat.id, STAR_PIC, caption=star)
+              await .send_video(e.chat.id, STAR_PIC, caption=star)
 
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["restart", "reboot"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["restart", "reboot"], prefixes=HNDLR))
-async def reboot(xspam: Client, e: Message):
+async def reboot(XspamBot: Client, e: Message):
         reboot_text = "**Re-starting** \n\n __Wait For A While To Use it Again__ "
         await e.reply_text(reboot_text)
         try:
-            xspam.disconnect()
+            XspamBot.disconnect()
         except Exception as e:
             pass
-        args = [sys.executable, "-m", "SpamX"]
+        args = [sys.executable, "-m", "XspamBot"]
         os.execl(sys.executable, *args)
         quit()
 
