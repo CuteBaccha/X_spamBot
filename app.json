@@ -1,7 +1,7 @@
 {
-      "name": "Star X Spam ",
-      "description": "A Pyrogram Based Span Bots With Many Cmds Fast And Stable",
-      "logo": "https://telegra.ph/file/ec832fc9107fd21edfee3.jpg",
+      "name": "ansh X Spam ",
+      "description": "any problem join group nd ask questions yaro ki duniya me aao hm mil jayega",
+      "logo": "https://telegra.ph/file/84d78eb3f9dcbc9d6b87f.jpg",
       "keywords": [
         "telegram",
         "PYROGRAM",
@@ -9,9 +9,9 @@
         "RiZoeLXSpam",
         "SpamBots"
       ],   
-  "repository": "https://github.com/Starboihacks369/SpamX",
-  "website": "https://github.com/Starboihacks369",
-  "success_url": "https://t.me/its_star_robot",
+  "repository": "https://github.com/CuteBaccha/XspamBot",
+  "website": "https://t.me/XD_CUTETY",
+  "success_url": "https://t.me/CUTE_BACCHABOT",
   "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
