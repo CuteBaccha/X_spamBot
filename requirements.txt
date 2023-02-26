@@ -4,4 +4,4 @@ cryptg
 gitpython
 asyncio
 python-dotenv
-tgcrypt
+tgcrypto
