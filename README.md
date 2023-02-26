@@ -7,7 +7,7 @@
 
 ----
 
-<h4> SpamX Is A Pyrogram Based Spam Bots For Telegram With Many Features </h4>
+<h4> XspamBot Is A Pyrogram Based Spam Bots For Telegram With Many Features </h4>
 <br>
 <h3 align="center"> Features °</h3>
 
