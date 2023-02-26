@@ -10,7 +10,7 @@
         "SpamBots"
       ],   
   "repository": "https://github.com/CuteBaccha/XspamBot",
-  "website": "https://t.me/XD_CUTETY",
+  "website": "https://github.com/CuteBaccha/XspamBot",
   "success_url": "https://t.me/CUTE_BACCHABOT",
   "env": {
              "API_ID": {
