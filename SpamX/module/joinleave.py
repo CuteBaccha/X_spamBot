@@ -1,11 +1,11 @@
 
-# Star boi - Telegram Projects
+# ansh - Telegram Projects
 # (c) 2022 - 2023 Star
 # Don't Kang Bitch -!
 
 
 
-from SpamX import (OWNER_ID, HNDLR, SUDO_USERS, LOGS_CHANNEL)
+from XspamBot import (OWNER_ID, HNDLR, SUDO_USERS, LOGS_CHANNEL)
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
@@ -23,7 +23,7 @@ async def join(xspam: Client, e: Message):
         await e.reply_text(f"**ERROR:** \n\n{str(ex)}")
     if LOGS_CHANNEL:
          try:
-             await xspam.send_message(LOGS_CHANNEL, f"Joined New Chat \n\n Chat: {chat} \n Cmd By User: {e.from_user.id}")
+             await XspamBot.send_message(LOGS_CHANNEL, f"Joined New Chat \n\n Chat: {chat} \n Cmd By User: {e.from_user.id}")
          except Exception as a:
              print(a)
              pass
@@ -35,7 +35,7 @@ async def leave(xspam: Client, e: Message):
     if len(e.text) > 7:
         chat = rizoel[0]
         try:
-           await xspam.leave_chat(chat)
+           await XspamBot.leave_chat(chat)
            await e.reply_text("**Left Successfully ✅ **")
         except Exception as ex:
            await e.reply_text(f"**ERROR:** \n\n{str(ex)}")
@@ -47,13 +47,13 @@ async def leave(xspam: Client, e: Message):
         if int(chat) == -1001621682412:
               return e.reply_text("**Error**")
         try:
-           await xspam.leave_chat(chat)
+           await XspamBot.leave_chat(chat)
            await e.reply_text("**Left Successfully ✅ **")
         except Exception as ex:
            await e.reply_text(f"**ERROR:** \n\n{str(ex)}")
         if LOGS_CHANNEL:
            try:
-                await xspam.send_message(LOGS_CHANNEL, f"Leaved Chat \n\n Chat: {chat} \n Cmd By User: {e.from_user.id}")
+                await XspamBot.send_message(LOGS_CHANNEL, f"Leaved Chat \n\n Chat: {chat} \n Cmd By User: {e.from_user.id}")
            except Exception as a:
              print(a)
              pass
