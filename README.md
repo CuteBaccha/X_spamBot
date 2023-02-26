@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="SpamX/StarX.png" alt="StarXSpam Logo">
-</p>
+  <img src="XspamBot/CuteBaccha.png" alt="XspamBot Logo">
+</p
 <h1 align="center">
-  <b>• $ᴛᴀʀXsᴘᴀᴍ •</b>
+  <b>• xsᴘᴀᴍʙᴏᴛ_ᴀɴsʜ •</b>
 </h1>
 
 ----
@@ -31,7 +31,7 @@
 
 <h4> Local Hosting </h4>
 
-<i> First Fork The [Repo](https://github.com/its-star-boi/SpamX) </i>
+<i> First Fork The [Repo](https://github.com/CuteBaccha/XspamBot) </i>
 <br>
 <i> Now Rename semple.env as .env And Fill Your Values </i>
 
@@ -53,7 +53,7 @@
 <br>
 × <i> You'll need a API_ID & API_HASH in order to generate Pyrogram session string. Get This Values from https://my.telegram.org </i>
 <h4>• Generate Session Using Telegram Bot: </h4>    
-<p><a href="http://t.me/STRING_SESSION_MAKER_BOT?start=generate"><img src="https://telegra.ph/file/1ccff3d3c8535d614ddf9.jpg" width="150""/></a></p>
+<p><a href="http://t.me/ANSH_MAKERBOT?start=generate"><img src="https://telegra.ph/file/84d78eb3f9dcbc9d6b87f.jpg" width="150""/></a></p>
 
 </details>
 
@@ -61,8 +61,8 @@
 
 <h3 align="center"> Support: </h3>
 
-  * <i> Channel </i>: [@Star_X_Network](https://t.me/Star_X_Network) <br>
-  * <i> Support </i>: [@Best_FriendsFor_Ever](https://t.me/Best_FriendsFor_Ever)
+  * <i> Channel </i>: [@XD_CUTETY](https://t.me/XD_CUTETY) <br>
+  * <i> Support </i>: [@ISHQ00_I](https://t.me/ISHQ00_I)
 
 ----
 
