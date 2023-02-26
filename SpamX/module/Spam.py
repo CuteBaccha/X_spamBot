@@ -1,4 +1,4 @@
-# Star boi - Telegram Projects
+# ansh - Telegram Projects
 # (c) 2022 - 2023 Star
 # Don't Kang Bitch -!
 
@@ -30,7 +30,7 @@ async def delayspam(xspam: Client, e: Message):
             return await e.reply_text("**Sorry !! i Can't Spam Here.**")
        msg = str(Rizoelop[1])
        if re.search(Owners.lower(), msg.lower()):
-            return await e.reply_text(usage)("**Sorry !!** I can't Spam On @its_star_boi's owner")
+            return await e.reply_text(usage)("**Sorry !!** I can't Spam On @ID_SELLER00's owner")
        sleeptime = float(Rizoel[0])
        if e.reply_to_message:
           reply_to_id = e.reply_to_message.message_id
@@ -90,7 +90,7 @@ async def raid(xspam: Client, e: Message):
           ok = await xspam.get_users(Rizoel[1])
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @its_star_boi's Owner"
+                text = f"I can't raid on @ID_SELLER00's Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -116,7 +116,7 @@ async def raid(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in RiZoeLX:
-                text = f"I can't raid on @its_star_boi Owner"
+                text = f"I can't raid on @ID_SELLER00 Owner"
                 await e.reply_text(text)
           elif int(id) == OWNER_ID:
                 text = f"This guy is Owner Of this Bots."
@@ -151,7 +151,7 @@ async def fastspam(xspam: Client, e: Message):
             return await e.reply_text("**Sorry !! i Can't Spam Here.**")
        msg = str(Rizoel[1])
        if re.search(Owners.lower(), msg.lower()):
-            return await e.reply("**Sorry !!** I can't Spam On @its_star_boi owner")
+            return await e.reply("**Sorry !!** I can't Spam On @ID_SELLER00 owner")
        if e.reply_to_message:
           reply_to_id = e.reply_to_message.message_id
           for _ in range(counts):
