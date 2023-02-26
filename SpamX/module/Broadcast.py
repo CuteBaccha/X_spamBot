@@ -1,9 +1,9 @@
-# Star boi - Telegram Projects
+# Ansh - Telegram Projects
 # (c) 2022 - 2023 Star
 # Don't Kang Bitch -!
 
 
-from SpamX import OWNER_ID, HNDLR, DEVS, LOGS_CHANNEL
+from XspamBot import OWNER_ID, HNDLR, DEVS, LOGS_CHANNEL
 from pyrogram import Client , filters
 import asyncio
 from pyrogram.types import Message
@@ -34,10 +34,10 @@ async def broadcast(xspam: Client, e: Message):
                 await asyncio.sleep(0.1)
           except Exception as e:
               err += 1 
-    return await xspam.send_message(ok, f"**• Broadcast Done** ✅ \n\n Chats: {dn} \n Failed In {err} chats")
+    return await XspamBot.send_message(ok, f"**• Broadcast Done** ✅ \n\n Chats: {dn} \n Failed In {err} chats")
     if LOGS_CHANNEL:
        try:
-           await xspam.send_message(LOGS_CHANNEL, f"Broadcasting Done By user {e.from_user.id} \n\n Chat: {dn} \n Failed in {err} chats")
+           await XspamBot.send_message(LOGS_CHANNEL, f"Broadcasting Done By user {e.from_user.id} \n\n Chat: {dn} \n Failed in {err} chats")
        except Exception as a:
              print(a)
              pass
