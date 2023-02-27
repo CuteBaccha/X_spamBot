@@ -6,10 +6,10 @@
 
 import asyncio
 from pyrogram import idle
-from . import (,StarX, ,StarX2, ,StarX3, ,StarX4, ,StarX5, 
-                ,StarX6, ,StarX7, ,StarX8, ,StarX9, ,StarX10, 
-                ,StarX11, StarX12, ,StarX13, ,StarX14, ,StarX15, 
-                ,StarX16, ,StarX17, ,StarX18, ,StarX19, StarX20,)
+from . import (StarX, StarX2, StarX3, StarX4, StarX5, 
+                StarX6, StarX7, StarX8, StarX9, StarX10, 
+                StarX11, StarX12, StarX13, StarX14, StarX15, 
+                StarX16, StarX17, StarX18, StarX19, StarX20,)
 
 if StarX:
     StarX.start()
